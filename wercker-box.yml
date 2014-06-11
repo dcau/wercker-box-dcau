@@ -16,7 +16,7 @@ script: |
   sudo apt-get install python-pip
 
   # awscli
-  sudo pip2 install awscli
+  sudo pip install awscli
 
   # scala
   sudo wget http://www.scala-lang.org/downloads/distrib/files/scala-2.10.2.tgz
