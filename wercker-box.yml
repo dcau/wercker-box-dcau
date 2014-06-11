@@ -19,7 +19,7 @@ script: |
   sudo pip install awscli
 
   # scala
-  sudo wget http://www.scala-lang.org/downloads/distrib/files/scala-2.10.2.tgz
+  sudo wget http://scala-lang.org/files/archive/scala-2.10.3.tgz
   tar zxvf scala-2.10.2.tgz
   sudo mv scala-2.10.2 /usr/share/scala
 
