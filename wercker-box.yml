@@ -19,9 +19,9 @@ script: |
   sudo pip install awscli
 
   # scala
-  sudo wget http://scala-lang.org/files/archive/scala-2.10.3.tgz
-  tar zxvf scala-2.10.2.tgz
-  sudo mv scala-2.10.2 /usr/share/scala
+  sudo wget http://scala-lang.org/files/archive/scala-2.10.4.tgz
+  tar zxvf scala-2.10.4.tgz
+  sudo mv scala-2.10.4 /usr/share/scala
 
   sudo ln -s /usr/share/scala/bin/scala /usr/bin/scala
   sudo ln -s /usr/share/scala/bin/scalac /usr/bin/scalac
